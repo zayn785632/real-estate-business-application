@@ -9,7 +9,7 @@
     <div class="row text-center">
       <div class="col-md-12">
         <h1 class="display-4">About BT Real Estate</h1>
-        <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt, pariatur!</p>
+        <p class="lead">Whatever you want to do with property. We have the right solution for you.</p>
       </div>
     </div>
   </div>
@@ -35,11 +35,9 @@
       <div class="row">
         <div class="col-md-8">
           <h2>We Search For The Perfect Home</h2>
-          <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt, pariatur!</p>
+          <p class="lead">We are the leading Real Estate Listing Company</p>
           <img src="{% static 'img/about.jpg' %}" alt="">
-          <p class="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis esse officia repudiandae ad saepe ex, amet
-            neque quod accusamus rem quia magnam magni dolorum facilis ullam minima perferendis? Exercitationem at quaerat
-            commodi id libero eveniet harum perferendis laborum molestias quia.</p>
+          <p class="mt-4">BT Real Estate is a prop-tech company that is reshaping the real estate market by providing a user-friendly one-stop solution for your property needs. We offer a seamless service of Buy/Sell/ Rent along with Legal Support, Property Management, Branding & Marketing with complete transparency and reliability. This saves both time and money as a result of our end-to-end technological solutions as well as building trust with our clients. List your property on our website and relax!</p>
         </div>
         <div class="col-md-4">
           {% if mvp_realtors %}
@@ -70,9 +68,9 @@
   <!-- Work -->
   <section id="work" class="bg-dark text-white text-center">
     <h2 class="display-4">We Work For You</h2>
-    <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem velit aperiam, unde aliquid at similique!</h4>
+    <h4>We're taking it one step further: giving you a new way to buy or sell your home, with a top real estate agent by your side.</h4>
     <hr>
-    <a href="listings.html" class="btn btn-secondary text-white btn-lg">View Our Featured Listings</a>
+    <a href="{% url 'listings' %}" class="btn btn-secondary text-white btn-lg">View Our Featured Listings</a>
   </section>
 
   <!-- Team -->
