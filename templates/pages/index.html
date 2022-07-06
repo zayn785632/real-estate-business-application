@@ -1,6 +1,6 @@
 {% extends 'base.html' %}
 {% load humanize %}
-
+{% block title %} | Welcome{% endblock %}
 {% block content %}
 
 <!-- Showcase -->
@@ -11,8 +11,7 @@
           <h1 class="display-4 mb-4">
             Property Searching Just Got So Easy
           </h1>
-          <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae quas, asperiores eveniet vel nostrum magnam
-            voluptatum tempore! Consectetur, id commodi!</p>
+          <p class="lead">Discover a place you'll love to live</p>
           <div class="search">
             <form action="{% url 'search' %}">
               <!-- Form Row 1 -->
@@ -64,7 +63,9 @@
       </div>
     </div>
   </section>
-
+  <br>
+  <!-- alert -->
+  {% include 'partials/_alerts.html' %}
   <!-- Listings -->
   <section id="listings" class="py-5">
     <div class="container">
