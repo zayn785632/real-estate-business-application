@@ -10,6 +10,7 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.2/ref/settings/
 """
 
+import email
 import os
 from pathlib import Path
 
@@ -146,3 +147,11 @@ MESSAGE_TAGS ={
     messages.ERROR: 'danger'
     
 }
+
+#email config
+
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = 587
+EMAIL_HOST_USER ='md.mostafa785632@gmail.com'
+EMAIL_HOST_PASSWORD ='sxfdrvgzqjphnqna'
+EMAIL_USE_TLS=True
