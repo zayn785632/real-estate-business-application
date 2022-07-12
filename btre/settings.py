@@ -152,6 +152,6 @@ MESSAGE_TAGS ={
 
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
-EMAIL_HOST_USER ='md.mostafa785632@gmail.com'
-EMAIL_HOST_PASSWORD ='sxfdrvgzqjphnqna'
+EMAIL_HOST_USER ='ur gmail'
+EMAIL_HOST_PASSWORD ='your gmail app password can be found on google acc security page'
 EMAIL_USE_TLS=True
